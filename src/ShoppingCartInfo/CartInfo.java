@@ -3,7 +3,8 @@ package ShoppingCartInfo;
 public enum CartInfo{
 	GRAINS("Grains",20),
 	BREAD("Bread",10),
-	COKE("Coke",5);
+	COKE("Coke",5),
+	Biscuit("biscuit",20);
 	
 	private final String items;
 	private final int price;
